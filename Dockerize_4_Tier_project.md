@@ -274,7 +274,7 @@ docker-compose ps
 ```sh
 http://12.23.43.44
 ```
-
+![](Screenshot from 2023-09-04 20-31-57.png)
 
 ### 11. Visit your website HTTPS://<your website>
   Enjoy Your website serve
