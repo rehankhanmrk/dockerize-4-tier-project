@@ -1,5 +1,5 @@
 
-# Dockerize 4 tier application such as Nginx,Postgres-db,phyton
+# Dockerize 4 tier application such as Nginx,Postgres-db,Phyton,Redis
 
 ## Installation instructions
 
@@ -109,7 +109,7 @@ sudo usermod -aG docker ${USER}
 newgrp docker 
 ```
 
-#### 4. Clone 4_tier_project Nginx-webserver,Phyton,Postgres-db
+#### 4. Clone 4_tier_project Nginx-webserver,Phyton,Postgres-db,Redis
 
 ```sh
 cd /home/ubuntu
