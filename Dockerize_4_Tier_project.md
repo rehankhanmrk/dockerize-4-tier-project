@@ -99,6 +99,22 @@ TriggeredBy: ● docker.socket
              └─7854 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 
 
+#### Docker Compose Installation
+To install docker compose on Ubuntu Linux, execute the following commands one after the another
+
+```sh
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+#### give Execute Permision " +x " 
+
+```sh
+sudo chmod +x /usr/local/bin/docker-compose
+```
+#### Check the docker-compose version by running following command,
+
+```sh
+docker-compose --version
+```
 
 #### If you want to avoid typing sudo whenever you run the docker command, add your username to the docker group:
 
